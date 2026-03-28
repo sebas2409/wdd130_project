@@ -1,0 +1,141 @@
+
+:root {
+    --primary: #FF6700;
+    --secondary: #2d2d2d;
+    --accent-1: #546E7A;
+    --accent-2: #F5F5F5;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: var(--accent-2);
+    color: var(--secondary);
+}
+
+
+header {
+    background-color: var(--secondary);
+    color: white;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup-btn {
+    background-color: var(--primary);
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('garage-bg.jpg'); /* Placeholder */
+    background-size: cover;
+    background-color: var(--secondary);
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    background-color: var(--primary);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+.how-it-works {
+    padding: 50px 5%;
+    text-align: center;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.step {
+    flex: 1;
+    padding: 20px;
+}
+
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--secondary);
+    color: white;
+    padding: 40px 5%;
+    gap: 20px;
+}
+
+.service-card {
+    border: 1px solid var(--accent-1);
+    padding: 20px;
+    text-align: center;
+}
+
+.winter-problem {
+    padding: 60px 20%;
+    text-align: center;
+    background-color: var(--accent-2);
+}
+
+
+footer {
+    background-color: var(--secondary);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid var(--primary);
+}
+
+
+.logo img {
+    height: 55px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 12px;
+    object-fit: contain;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
