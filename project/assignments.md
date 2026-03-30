@@ -1,2 +1,2 @@
 Villarete - Homepage
-Luisa  - 
+Luisa  - Rentals & Pricing page
