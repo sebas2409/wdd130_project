@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Montserrat&family=Oswald&family=Roboto+Condensed&display=swap');
+
+body {
+    font-family: 'Open Sans', 'Montserrat', Arial, sans-serif; 
+    margin: 0;
+    background-color: #333333; 
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto Condensed', 'Oswald', Arial, sans-serif; 
+    text-transform: uppercase; 
+    margin-bottom: 10px;
+}
+
+.navbar {
+    background-color: #222222;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #FF6700; 
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.signup-btn {
+    background-color: #FF6700;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero {
+    background-color: #222222;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    color: #FF6700;
+    font-size: 40px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.cta-button {
+    background-color: #FF6700;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.how-it-works {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.step {
+    width: 30%;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+    background-color: #222222;
+}
+
+.service-card {
+    border: 1px solid white;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.service-card h3 {
+    color: white;
+}
+
+.footer {
+    background-color: #333333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto; 
+}
+
+.footer-content h3 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #cccccc;
+}
